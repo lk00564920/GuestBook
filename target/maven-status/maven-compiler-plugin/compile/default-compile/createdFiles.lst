@@ -1,0 +1,15 @@
+com\app\entry\model\User.class
+com\app\entry\controller\LoginController.class
+com\app\entry\repository\UserRepository.class
+com\app\entry\model\Entry.class
+com\app\entry\repository\RoleRepository.class
+com\app\entry\service\MyUserDetailsService.class
+com\app\entry\controller\EntryController.class
+com\app\entry\configuration\SecurityConfiguration.class
+com\app\entry\EntryApplication.class
+com\app\entry\repository\EntryRepository.class
+com\app\entry\model\Role.class
+com\app\entry\configuration\WebSecurityConfiguration.class
+com\app\entry\service\UserService.class
+com\app\entry\service\EntryService.class
+com\app\entry\configuration\RoleBasedAuthenticationSuccessHandler.class
