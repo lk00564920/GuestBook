@@ -10,7 +10,12 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
-
+/**
+ * @author lk00564920
+ * RoleBasedAuthenticationSuccessHandler
+ * Helps to authenticate suer based on his/her role
+ *
+ */
 public class RoleBasedAuthenticationSuccessHandler extends SimpleUrlAuthenticationSuccessHandler
         implements AuthenticationSuccessHandler {
 

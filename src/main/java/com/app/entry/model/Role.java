@@ -1,7 +1,12 @@
 package com.app.entry.model;
 
 import javax.persistence.*;
-
+/**
+ * @author lk00564920
+ * Role
+ * Helps to map role entity to roles table
+ * 
+ */
 @Entity
 @Table(name = "roles")
 public class Role {

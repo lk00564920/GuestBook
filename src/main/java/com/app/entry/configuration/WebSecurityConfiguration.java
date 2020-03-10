@@ -12,7 +12,12 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.app.entry.service.MyUserDetailsService;
-
+/**
+ * @author lk00564920
+ * WebSecurityConfiguration
+ * Helps to keep all security configuration
+ * 
+ */
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
